@@ -1,0 +1,50 @@
+.div-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-right: 30px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.div-container p {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 10px;
+  text-align: left;
+  flex-grow: 6;
+} 
+
+.div-container button {
+  align-items: center;
+  outline: none; 
+  border: none;
+  background-color: white;
+}
+
+.div-container button svg {
+  fill: gray;
+  background-size: 20px 20px;
+  height: 15px;
+  width: 15px;
+}
+
+.div-container button svg:hover {
+  fill: black;
+}
+
+.div-container input {
+  align-items: center;
+}
+
+.p-checked {
+  color:gray;
+  text-decoration: line-through;
+}
+
+.div-container button, p, input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

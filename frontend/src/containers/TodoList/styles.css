@@ -1,0 +1,41 @@
+.main-div {
+  text-align: center;
+  margin-left: 38%;
+  margin-right: 38%;
+  font-family: Verdana, sans-serif;
+  font-weight: normal;
+}
+
+.none-span {
+  color: white !important;
+}
+
+.footer-div {
+  border-top: 1px solid #dee2e6;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.todo-list-div {
+  overflow: auto;
+  max-height: 270px;
+}
+.todo-list-div::-webkit-scrollbar { width: 0; }
+
+h4 {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.footer-div span {
+  color: grey;
+  position: relative;
+  font-size: 12px;
+}
+
+.footer-div span:hover {
+  color: black;
+}

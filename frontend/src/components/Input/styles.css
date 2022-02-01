@@ -1,0 +1,12 @@
+.input-form {
+  outline: none;
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  right: 3%;
+  left: 3%;
+  width: 94%;
+  padding-top: 25px;
+  margin-right: 27px;
+  margin-bottom: 20px;
+}
